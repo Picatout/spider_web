@@ -37,7 +37,7 @@ Light show
 ----------
 
 The audio circuit using only 2 pins there was 3 left and I decided to use them. pin **2** and **3** output a rectangular waveform 180&deg; out of phase coming from the
-**CWG** which is fed from the third PWM. The frequency of which is 200 Hertz with at continuously varying duty cycle in a triangular shape. The output of this PWM is
+**CWG** which is fed from the third PWM. The frequency of which is 200 Hertz with a continuously varying duty cycle in a triangular shape. The output of this PWM is
 on pin **7** and feed **D5** LED. The effect is varying LED intensity producing a heart beat effect.
 
 But the same signal on pins **2** and **3** has a complelely different effect on bicolors LEDs **D4** and **D6**. the effect is of a gradual color change from RED to 
@@ -51,7 +51,7 @@ to the first one.
 
 Coding
 ======
-  I like to program those small PIC in assembly using **MPASM**. The instruction set is of only 49 instructions but efficient. Easy to learn and apply. The only annoyance is the RAM and SFR address space being split in 128 bytes banks forcing a continual *banksel* usage. To forget switching bank usualy result in stranges bugs.
+  I like to program those small PIC in assembly using **MPASM**. The instruction set is of only 49 instructions but efficient, easy to learn and apply. The only annoyance is the RAM and SFR address space being split in 128 bytes banks forcing a continual *banksel* usage. To forget switching bank usualy result in stranges bugs.
 So one should be well aware of this limitation.
 
 The source code take a fraction of the 2Kwords of flash memory space this leave plenty of space for tunes tables.
@@ -61,15 +61,17 @@ Table macros
 
 I have create a set of macros to facilitate the tunes tables writing.
 
-* MELODY name,  start a new table. *name* is the name of the table
-* TEMPO n,  speed at which the tune is played. *n* is in quarter note per minute.
+* MELODY *name*,  start a new table. *name* is the name of the table
+* TEMPO *n*,  speed at which the tune is played. *n* is quarter notes per minute.
 * MELODY_END,  mark the end of the tune.
-* NOTE n, d,  insert a musical note in the table. *n* is note name {C2,C2s,D2f,D2,D2s,....}. *d* is duration {WHOLE, WHOLE_DOT, HALF, HALF_DOT,...}
-* PAUSE d, insert a silence of duration *d* {WHOLE, WHOLE_DOT, HALF, HALF_DOT,...}
-* OCTAVE o, switch octave. *o* is one of {O2,O3,O4,O5}
-* STROKE s, select note stroke which is duration of sustain period. There is 3 stroke {NORMAL,STACCATO,LEGATO}. **NORMAL** is 3/4 total duration. **STACCATO** is 1/2 total duration and **LEGATO** is 7/8 of total duration.
+* NOTE *n*, *d*,  insert a musical note in the table. *n* is note name {C2,C2s,D2f,D2,D2s,....}. *d* is duration {WHOLE, WHOLE_DOT, HALF, HALF_DOT,...}
+* PAUSE *d*, insert a silence of duration *d* {WHOLE, WHOLE_DOT, HALF, HALF_DOT,...}
+* OCTAVE *o*, switch octave. *o* is one of {O2,O3,O4,O5}
+* STROKE *s*, select note stroke which is duration of sustain period. There is 3 strokes {NORMAL,STACCATO,LEGATO}. **NORMAL** is 3/4 total duration. **STACCATO** is 1/2 total duration and **LEGATO** is 7/8 of total duration.
 * REPT_START is used to mark the beginning of section repeat
-* REPT_LOOP is used to end and begin execution of the section repeat. A section can only be repeated once.
+* REPT_LOOP is used to repeat the section marked by **REPT_START** up to here. A section can only be repeated once.
+
+**NOTE** French name for musical notes can also be used {DO2,DO2D,RE2B,RE2,...}
  
 Tune table sample
 -----------------
