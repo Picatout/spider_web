@@ -18,7 +18,7 @@ Project description
 -------------------
 
 The circuit will be assembled on the cone of a 4" speaker. The microcontroller, an 8 pins SOIC, will be suspended in center with 30 AWG wires going out from it to
-circumference. An octogonal wooden rim glued to the rim of speaker will support the components and the spider web. 
+circumference. An octogonal wooden rim glued to the speaker will support the components and the spider web. 
 
 Electronic circuit
 ------------------
@@ -40,8 +40,8 @@ The audio circuit using only 2 pins there was 3 left and I decided to use them. 
 **CWG** which is fed from the third PWM. The frequency of which is 200 Hertz with a continuously varying duty cycle in a triangular shape. The output of this PWM is
 on pin **7** and feed **D5** LED. The effect is varying LED intensity producing a heart beat effect.
 
-But the same signal on pins **2** and **3** has a complelely different effect on bicolors LEDs **D4** and **D6**. the effect is of a gradual color change from RED to 
-green passing through shades of orange. The two LEDs are wired so that their color phase is 180&deg; out.
+But the same signal on pins **2** and **3** has a complelely different effect on bicolors LEDs **D4** and **D6**. the effect is of a gradual color change from *red* to 
+*green* going through shades of *orange*. The two LEDs are wired so that their color phase is 180&deg; out.
 
 using the music box
 -------------------
@@ -54,12 +54,12 @@ Coding
   I like to program those small PIC in assembly using **MPASM**. The instruction set is of only 49 instructions but efficient, easy to learn and apply. The only annoyance is the RAM and SFR address space being split in 128 bytes banks forcing a continual *banksel* usage. To forget switching bank usualy result in stranges bugs.
 So one should be well aware of this limitation.
 
-The source code take a fraction of the 2Kwords of flash memory space this leave plenty of space for tunes tables.
+The source code take a fraction of the 2K words of flash memory, this leave plenty of space for tunes tables.
 
 Table macros
 ------------
 
-I have create a set of macros to facilitate the tunes tables writing.
+I have created a set of macros to facilitate tunes tables writing.
 
 * MELODY *name*,  start a new table. *name* is the name of the table
 * TEMPO *n*,  speed at which the tune is played. *n* is quarter notes per minute.
@@ -71,7 +71,7 @@ I have create a set of macros to facilitate the tunes tables writing.
 * REPT_START is used to mark the beginning of section repeat
 * REPT_LOOP is used to repeat the section marked by **REPT_START** up to here. A section can only be repeated once.
 
-**NOTE** French name for musical notes can also be used {DO2,DO2D,RE2B,RE2,...}
+**NOTE:** French name for musical notes can also be used {DO2,DO2D,RE2B,RE2,...}
  
 Tune table sample
 -----------------
