@@ -73,33 +73,34 @@ I have create a set of macros to facilitate the tunes tables writing.
  
 Tune table sample
 -----------------
-> ; amazing grace
-> ; REF: https://www.apprendrelaflute.com/amazing-grace-a-la-flute-a-bec	
->	MELODY amazin_grace
->	TEMPO 120
->	OCTAVE O2
->	;1
->	NOTE SOL2, QUARTER
->	;2
->	NOTE DO3, HALF
->	OCTAVE O3
->	NOTE MI2, HEIGTH
->	NOTE DO2, HEIGTH
->	;3
->	NOTE MI2, HALF
->	NOTE RE2, QUARTER
->	;4
->	NOTE DO2, HALF
->	OCTAVE O2
->	NOTE LA2, QUARTER
->	;5
->	NOTE SOL2, HALF
->	NOTE SOL2, QUARTER
->	;6
->	...
->	;16
->	NOTE DO3, HALF_DOT
->	STROKE NORMAL
->	MELODY_END
-
+<addr>
+  ; amazing grace
+  ; REF: https://www.apprendrelaflute.com/amazing-grace-a-la-flute-a-bec	
+	MELODY amazin_grace
+	TEMPO 120
+	OCTAVE O2
+	;1
+	NOTE SOL2, QUARTER
+	;2
+	NOTE DO3, HALF
+	OCTAVE O3
+	NOTE MI2, HEIGTH
+	NOTE DO2, HEIGTH
+	;3
+	NOTE MI2, HALF
+	NOTE RE2, QUARTER
+	;4
+	NOTE DO2, HALF
+	OCTAVE O2
+	NOTE LA2, QUARTER
+	;5
+	NOTE SOL2, HALF
+	NOTE SOL2, QUARTER
+	;6
+	...
+	;16
+	NOTE DO3, HALF_DOT
+	STROKE NORMAL
+	MELODY_END
+</addr>
 
