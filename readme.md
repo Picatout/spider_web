@@ -71,7 +71,12 @@ I have created a set of macros to facilitate tunes tables writing.
 * REPT_START is used to mark the beginning of section repeat
 * REPT_LOOP is used to repeat the section marked by **REPT_START** up to here. A section can only be repeated once.
 
-**NOTE:** French name for musical notes can also be used {DO2,DO2D,RE2B,RE2,...}
+**NOTES:** 
+
+1. French name for musical notes can also be used {DO2,DO2D,RE2B,RE2,...}.
+2. Always use octave 2 names. Octave scaling in done in software.
+3. 3 notes are defined over the first octave to reduce octave switching {C3,C3s,D3}.
+4. Beeing a tempered scale flat and sharp overlap i.e. C3s is same as D3f. For commodity I defined both.
  
 Tune table sample
 -----------------
