@@ -73,7 +73,7 @@ I have create a set of macros to facilitate the tunes tables writing.
  
 Tune table sample
 -----------------
-<addr>
+<pre><code>
   ; amazing grace
   ; REF: https://www.apprendrelaflute.com/amazing-grace-a-la-flute-a-bec	
 	MELODY amazin_grace
@@ -102,5 +102,5 @@ Tune table sample
 	NOTE DO3, HALF_DOT
 	STROKE NORMAL
 	MELODY_END
-</addr>
+</code></pre>
 
