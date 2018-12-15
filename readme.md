@@ -7,7 +7,7 @@ Music from the web
 
 *Waiting for diner to be served*
 
-*While listening to music.*
+*While listening to music*
 
 *To feel or not to feel vibrations*
 
