@@ -334,37 +334,8 @@ F 3 "" H 3450 2775 50  0001 C CNN
 	1    3450 2775
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3100 2775 3200 2775
 Text Label 3200 2775 2    50   ~ 0
 Vbatt
-$Comp
-L device:CP C1
-U 1 1 5C0D4BB9
-P 3200 3050
-F 0 "C1" H 3318 3096 50  0000 L CNN
-F 1 "100µF" H 3318 3005 50  0000 L CNN
-F 2 "" H 3238 2900 50  0001 C CNN
-F 3 "" H 3200 3050 50  0001 C CNN
-	1    3200 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 2900 3200 2775
-Connection ~ 3200 2775
-Wire Wire Line
-	3200 2775 3300 2775
-$Comp
-L power:GND #PWR02
-U 1 1 5C0D5A1D
-P 3200 3200
-F 0 "#PWR02" H 3200 2950 50  0001 C CNN
-F 1 "GND" H 3205 3027 50  0000 C CNN
-F 2 "" H 3200 3200 50  0001 C CNN
-F 3 "" H 3200 3200 50  0001 C CNN
-	1    3200 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L device:LED_Dual_AAC D4
 U 1 1 5C0DF4D0
@@ -479,11 +450,11 @@ Wire Wire Line
 	5275 4150 5500 4150
 Wire Wire Line
 	5800 3925 5800 4150
-Text Label 5075 3375 0    50   ~ 0
+Text Label 4775 3375 0    50   ~ 0
 tone
-Text Label 5075 3475 0    50   ~ 0
+Text Label 4775 3475 0    50   ~ 0
 envelope
-Text Label 4750 3275 0    50   ~ 0
+Text Label 4775 3275 0    50   ~ 0
 heartbeat
 Text Label 3850 3475 2    50   ~ 0
 ~reset
@@ -512,4 +483,6 @@ Text Notes 6150 2025 0    50   ~ 0
 G\n
 Text Notes 6350 2025 0    50   ~ 0
 R
+Wire Wire Line
+	3100 2775 3300 2775
 $EndSCHEMATC
