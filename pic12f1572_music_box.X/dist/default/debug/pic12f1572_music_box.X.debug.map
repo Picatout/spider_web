@@ -1,0 +1,195 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Dec 16 02:07:15 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000fd6
+.config_8007_BUILD/DEFAULT/DEBUG/MUSIC_BOX.O       code   0x008007    program   0x000002
+.config_8008_BUILD/DEFAULT/DEBUG/MUSIC_BOX.O       code   0x008008    program   0x000002
+                stack_seg      udata   0x000020       data   0x000010
+                  var_seg      udata   0x000070       data   0x00000e
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0007ee      
+                            0x008007    0x008008      
+            2032 out of 2055 program addresses used, program memory utilization is 98%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             _.org_1_00D9   0x0000d9    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             _.org_1_00E4   0x0000e4    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             _.org_1_0154   0x000154    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             _.org_1_0167   0x000167    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 a_bytown   0x0002dc    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+           ah_que_l_hiver   0x000319    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 air_on_g   0x000785    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             amazin_grace   0x00039b    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               beau_sapin   0x000627    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                bon_tabac   0x0005dc    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                change_dc   0x000015    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+          claire_fontaine   0x000660    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               cmd_octave   0x000126    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+           cmd_repeat_bar   0x00012e    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+          cmd_repeat_loop   0x000134    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               cmd_stroke   0x00012a    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+        complainte_phoque   0x00043c    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+  concerto_3_m1_beethoven   0x00027d    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+       config_led_control   0x00009f    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                div2_loop   0x000176    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     div8   0x0001a9    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                div8_done   0x0001b1    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 div_done   0x00017e    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                  env_isr   0x00001a    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+            frere_jacques   0x000525    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                fur_elise   0x0006ce    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+            go_down_moses   0x000344    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+       god_save_the_queen   0x000479    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             greensleeves   0x0003d5    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     init   0x0000bf    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             invert_slope   0x000013    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                      isr   0x000004    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 isr_exit   0x000021    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             joyeux_anniv   0x000604    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              korobeiniki   0x0005a3    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             led_ctrl_isr   0x000004    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              legato_mode   0x0001a7    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                low_power   0x00013e    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     main   0x0000f7    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                  melodia   0x0004b1    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              melody_done   0x00013a    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+       morning_has_broken   0x000693    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+           negative_slope   0x00000a    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              normal_mode   0x000195    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 o_canada   0x000215    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             oct_adj_done   0x0001ca    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             oct_adj_loop   0x0001c7    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                  ode_joy   0x000550    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    pause   0x00014d    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                play_list   0x000086    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                play_note   0x000158    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+           positive_slope   0x00000f    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               reset_list   0x0000f6    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             roi_dagobert   0x0004e7    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    scale   0x000024    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             set_duration   0x000189    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             set_envelope   0x00016d    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+            set_tone_freq   0x0001c1    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             silent_night   0x0001da    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+            staccato_mode   0x0001a3    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               staff_loop   0x000101    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     tone   0x000123    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                update_dc   0x0001b9    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               update_env   0x0001bd    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     accH   0x00007a       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     accL   0x000079       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                durationH   0x00007c       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                durationL   0x00007b       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    flags   0x000070       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               led_dc_inc   0x00007d       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 note_idx   0x000071       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                   octave   0x000073       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     play   0x000074       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              repeat_mark   0x000072       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    stack   0x000020       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                   stroke   0x000075       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    temp3   0x000078       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    tempH   0x000077       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    tempL   0x000076       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             led_ctrl_isr   0x000004    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                      isr   0x000004    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+           negative_slope   0x00000a    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+           positive_slope   0x00000f    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             invert_slope   0x000013    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                change_dc   0x000015    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                  env_isr   0x00001a    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 isr_exit   0x000021    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    scale   0x000024    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                play_list   0x000086    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+       config_led_control   0x00009f    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     init   0x0000bf    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             _.org_1_00D9   0x0000d9    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             _.org_1_00E4   0x0000e4    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               reset_list   0x0000f6    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     main   0x0000f7    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               staff_loop   0x000101    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     tone   0x000123    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               cmd_octave   0x000126    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               cmd_stroke   0x00012a    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+           cmd_repeat_bar   0x00012e    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+          cmd_repeat_loop   0x000134    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              melody_done   0x00013a    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                low_power   0x00013e    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    pause   0x00014d    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             _.org_1_0154   0x000154    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                play_note   0x000158    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             _.org_1_0167   0x000167    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             set_envelope   0x00016d    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                div2_loop   0x000176    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 div_done   0x00017e    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             set_duration   0x000189    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              normal_mode   0x000195    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+            staccato_mode   0x0001a3    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              legato_mode   0x0001a7    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     div8   0x0001a9    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                div8_done   0x0001b1    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                update_dc   0x0001b9    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               update_env   0x0001bd    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+            set_tone_freq   0x0001c1    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             oct_adj_loop   0x0001c7    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             oct_adj_done   0x0001ca    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             silent_night   0x0001da    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 o_canada   0x000215    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+  concerto_3_m1_beethoven   0x00027d    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 a_bytown   0x0002dc    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+           ah_que_l_hiver   0x000319    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+            go_down_moses   0x000344    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             amazin_grace   0x00039b    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             greensleeves   0x0003d5    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+        complainte_phoque   0x00043c    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+       god_save_the_queen   0x000479    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                  melodia   0x0004b1    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             roi_dagobert   0x0004e7    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+            frere_jacques   0x000525    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                  ode_joy   0x000550    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              korobeiniki   0x0005a3    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                bon_tabac   0x0005dc    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+             joyeux_anniv   0x000604    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               beau_sapin   0x000627    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+          claire_fontaine   0x000660    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+       morning_has_broken   0x000693    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                fur_elise   0x0006ce    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 air_on_g   0x000785    program     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    stack   0x000020       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    flags   0x000070       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                 note_idx   0x000071       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+              repeat_mark   0x000072       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                   octave   0x000073       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     play   0x000074       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                   stroke   0x000075       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    tempL   0x000076       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    tempH   0x000077       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                    temp3   0x000078       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     accL   0x000079       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                     accH   0x00007a       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                durationL   0x00007b       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+                durationH   0x00007c       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+               led_dc_inc   0x00007d       data     static /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm
+
+
