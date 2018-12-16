@@ -3,7 +3,7 @@ Music from the web
 
 **An electronic sculpture**
 
-*A spider was sitting at the center of her web*
+*A spider was sitting at center of her web*
 
 *Waiting for diner to be served*
 
