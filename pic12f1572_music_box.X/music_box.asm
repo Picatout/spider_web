@@ -3,10 +3,23 @@
 ; AUTHOR: Jacques Deschenes, Copyright 2018
 ; DESCRIPTION:    
 ;   musix box built using a PIC12F1572
-;   Can play 3 simultanuous tones.
-;    
 ; LICENCE: GPLv3    
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;    
+    
+;*******************************************************************************
+;   This program is free software: you can redistribute it and/or modify
+;    it under the terms of the GNU General Public License as published by
+;    the Free Software Foundation, either version 3 of the License, or
+;    (at your option) any later version.
+;
+;    This program is distributed in the hope that it will be useful,
+;    but WITHOUT ANY WARRANTY; without even the implied warranty of
+;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;    GNU General Public License for more details.
+;
+;    You should have received a copy of the GNU General Public License
+;    along with this program.  If not, see <https://www.gnu.org/licenses/>
+;*******************************************************************************
     
     include p12f1572.inc
     
@@ -425,11 +438,11 @@ play_list
 	addwf PCL,F
 	goto jingle_bell
 	goto douce_nuit
+	goto beau_sapin
 	goto greensleeves
 	goto ode_joy
 	goto korobeiniki
 	goto l_hiver
-	goto beau_sapin
 	goto claire_fontaine
 	goto melodia
 	goto go_down_moses
