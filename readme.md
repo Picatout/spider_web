@@ -122,7 +122,7 @@ Making the Octogon
 1.  Each end of these segments must be cut at 22.5&deg; angle such that when all glued together the angle between segments will be 45&deg;
 
 ![octogon_drawing](octogon_drawing.png)
-![octogon](octogon.pgn)
+![octogon](octogon.png)
 
 Assembly photos
 ---------------
@@ -131,11 +131,11 @@ Assembly photos
 
 **components positioning**
 
-![C1-SW2](C1-SW2.png)
-![C2-C3-C4-U1](C2-C3-C4-U1.png)
-![C2-D4-D6-R4-R8-U1](C2-D4-D6-R4-R8-U1.png)
-![C4-R5-R7-Q1](C4-R5-R7-Q1.png)
-![D1-D5-R6](D1-D5-R6.png)
-![D2-D3-R1-R2-R3](D2-D3-R1-R2-R3.png)
+![C1-SW2](C1_SW2.png)
+![C2-C3-C4-U1](C2_C3_C4_U1.png)
+![C2-D4-D6-R4-R8-U1](C2_D4_D6_R4_R8_U1.png)
+![C4-R5-R7-Q1](C4_R5_R7_Q1.png)
+![D1-D5-R6](D1_D5_R6.png)
+![D2-D3-R1-R2-R3](D2_D3_R1_R2_R3.png)
 
 
