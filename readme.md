@@ -121,3 +121,21 @@ Making the Octogon
 1.  Using 1/4" section square dowel cut 8 such segments.
 1.  Each end of these segments must be cut at 22.5&deg; angle such that when all glued together the angle between segments will be 45&deg;
 
+![octogon_drawing](octogon_drawing.png)
+![octogon](octogon.pgn)
+
+Assembly photos
+---------------
+![spider_web(1)](spider_web(1).png)
+![spider_web(2)](spider_web(2).png)
+
+**components positioning**
+
+![C1-SW2](C1-SW2.png)
+![C2-C3-C4-U1](C2-C3-C4-U1.png)
+![C2-D4-D6-R4-R8-U1](C2-D4-D6-R4-R8-U1.png)
+![C4-R5-R7-Q1](C4-R5-R7-Q1.png)
+![D1-D5-R6](D1-D5-R6.png)
+![D2-D3-R1-R2-R3](D2-D3-R1-R2-R3.png)
+
+
