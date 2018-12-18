@@ -111,3 +111,13 @@ Tune table sample
 	MELODY_END
 </code></pre>
 
+Making the Octogon
+------------------
+
+1.  On a sheet of paper draw a circle 4-1/4" diameter.
+1.  Using a protractor trace lines from center to circumference at every 45&deg;
+1.  Trace strait lines between every spoke at the circle crossing.
+1.  Measure the length of a segment of the resulting octogon.
+1.  Using 1/4" section square dowel cut 8 such segments.
+1.  Each end of these segments must be cut at 22.5&deg; angle such that when all glued together the angle between segments will be 45&deg;
+
