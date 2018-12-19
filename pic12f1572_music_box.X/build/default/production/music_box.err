@@ -1,102 +1,105 @@
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 323 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 325 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 330 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 336 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 344 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 345 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 352 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 354 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 461 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 464 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 465 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 466 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 467 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 468 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 470 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 471 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 473 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 474 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 338 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 343 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 348 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 350 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 358 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 359 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 366 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 368 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 475 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 477 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 478 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 479 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 480 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 483 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 481 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 482 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 484 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 485 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 486 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 487 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 488 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 489 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 491 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 492 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 493 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 494 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 497 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 498 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 499 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 503 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 506 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 507 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 510 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 500 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 502 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 505 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 511 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 513 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 524 : Using default destination of 1 (file).
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 528 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 536 : Using default destination of 1 (file).
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 540 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 543 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 545 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 547 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 549 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 551 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 552 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 517 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 520 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 521 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 524 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 527 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 538 : Using default destination of 1 (file).
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 542 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 550 : Using default destination of 1 (file).
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 554 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 574 : Using default destination of 1 (file).
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 636 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 637 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 638 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 639 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 641 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 642 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 644 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 645 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 646 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 168 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 170 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 176 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 557 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 559 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 561 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 563 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 565 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 566 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 568 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 605 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 606 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 608 : Using default destination of 1 (file).
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 670 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 671 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 672 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 673 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 675 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 676 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 678 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 679 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 680 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 181 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 183 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 168 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 170 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 189 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 176 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 720 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 722 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 738 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 743 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 765 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 770 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 774 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 776 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 778 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 802 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 805 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 196 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 181 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 183 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 202 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 189 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 754 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 756 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 772 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 777 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 799 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 804 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 808 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 809 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 810 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 811 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 812 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
-Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 219 : Using default destination of 1 (file).
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 836 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 839 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 842 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 843 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 844 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 845 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 846 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).
+Message[305] /home/jacques/github/spider_web/pic12f1572_music_box.X/music_box.asm 232 : Using default destination of 1 (file).

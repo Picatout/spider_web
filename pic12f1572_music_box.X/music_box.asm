@@ -339,13 +339,14 @@ led_ctrl_isr ;biled interrupt service
 	btfss led_dc_inc,7
 	goto positive_slope
 negative_slope	
-	movlw 4
+	movlw 2
 	subwf (BILED+PWMDCL),W
 	skpnc
 	goto change_dc
 	goto invert_slope
 positive_slope
-	movlw 151
+	movfw (BILED+PWMPRL)
+	addlw 254
 	subwf (BILED+PWMDCL),W
 	skpc
 	goto change_dc
@@ -436,14 +437,14 @@ scale
 play_list
 	clrf PCLATH
 	addwf PCL,F
+	goto greensleeves
+	goto korobeiniki
+	goto claire_fontaine
+	goto ode_joy
 	goto jingle_bell
 	goto douce_nuit
 	goto beau_sapin
-	goto greensleeves
-	goto ode_joy
-	goto korobeiniki
 	goto l_hiver
-	goto claire_fontaine
 	goto melodia
 	goto go_down_moses
 	goto amazing_grace
@@ -479,7 +480,7 @@ config_led_control
 	clrf (BILED+PWMOFL)
 	clrf (BILED+PWMOFH)
 	bsf (BILED+PWMCLKCON),1 ; use LFINTOSC as source clock
-	movlw 155
+	movlw 120
 	movwf (BILED+PWMPRL)
 	clrf (BILED+PWMPRH)
 	movlw 77
@@ -583,6 +584,26 @@ main
 	movfw play
 	call play_list
 	movwf durationH
+	movfw durationL
+	movwf tempL
+	movfw durationH
+	movwf tempH
+	movlw 8
+	movwf temp3
+div256
+	movfw temp3
+	skpnz
+	goto set_biled_per
+	clrc
+	rrf tempH,F
+	rrf tempL,F
+	decf temp3,F
+	goto div256
+set_biled_per
+	banksel BILED
+	movfw tempL
+	movwf (BILED+PWMPRL)
+	bsf (BILED+PWMLDCON),LDA
 staff_loop
 	incf note_idx
 	movfw play
