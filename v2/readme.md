@@ -33,7 +33,7 @@ circumference. An octogonal wooden rim glued to the speaker will support the com
 Electronic circuit
 ------------------
 
-![schematic](schematic.png)
+
 
  At the heart of the circuit a **PIC12F1572** microcontroller. This MCU has 3 independants 16 bits PWM (*Pulse widh modulation*) peripherals. One of them is used to generate audio tones.
 A second is used to control musical note duration. The third one as no relation to music. I given him a bit-play role as a LED show controller with the assistance
@@ -138,8 +138,6 @@ The new octogon rim with mcu mounted placed over the base.
 
 Assembly photos
 ---------------
-![spider_web(1)](spider_web(1).png)
-![spider_web(2)](spider_web(2).png)
 
 **components positioning**
 

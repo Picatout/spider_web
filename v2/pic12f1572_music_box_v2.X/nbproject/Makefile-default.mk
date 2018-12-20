@@ -30,12 +30,12 @@ ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 IMAGE_TYPE=debug
 OUTPUT_SUFFIX=cof
 DEBUGGABLE_SUFFIX=cof
-FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box_v2.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 else
 IMAGE_TYPE=production
 OUTPUT_SUFFIX=hex
 DEBUGGABLE_SUFFIX=cof
-FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box_v2.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 endif
 
 ifeq ($(COMPARE_BUILD), true)
@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=music_box(v2).asm
+SOURCEFILES_QUOTED_IF_SPACED=music_box_v2.asm
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/music_box(v2).o
-POSSIBLE_DEPFILES=${OBJECTDIR}/music_box(v2).o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/music_box_v2.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/music_box_v2.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/music_box\(v2\).o
+OBJECTFILES=${OBJECTDIR}/music_box_v2.o
 
 # Source Files
-SOURCEFILES=music_box(v2).asm
+SOURCEFILES=music_box_v2.asm
 
 
 CFLAGS=
@@ -87,42 +87,42 @@ FIXDEPS=fixDeps
 ifneq ($(INFORMATION_MESSAGE), )
 	@echo $(INFORMATION_MESSAGE)
 endif
-	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box_v2.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 
 MP_PROCESSOR_OPTION=12f1572
 MP_LINKER_DEBUG_OPTION= 
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assemble
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/music_box\(v2\).o: music_box\(v2\).asm  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/music_box_v2.o: music_box_v2.asm  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/music_box(v2).o.d 
-	@${RM} ${OBJECTDIR}/music_box(v2).o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/music_box(v2).err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_PK3=1 -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/music_box(v2).lst\\\" -e\\\"${OBJECTDIR}/music_box(v2).err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/music_box(v2).o\\\" \\\"music_box(v2).asm\\\" 
-	@${DEP_GEN} -d "${OBJECTDIR}/music_box(v2).o"
-	@${FIXDEPS} "${OBJECTDIR}/music_box(v2).o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
+	@${RM} ${OBJECTDIR}/music_box_v2.o.d 
+	@${RM} ${OBJECTDIR}/music_box_v2.o 
+	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/music_box_v2.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_PK3=1 -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/music_box_v2.lst\\\" -e\\\"${OBJECTDIR}/music_box_v2.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/music_box_v2.o\\\" \\\"music_box_v2.asm\\\" 
+	@${DEP_GEN} -d "${OBJECTDIR}/music_box_v2.o"
+	@${FIXDEPS} "${OBJECTDIR}/music_box_v2.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 else
-${OBJECTDIR}/music_box\(v2\).o: music_box\(v2\).asm  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/music_box_v2.o: music_box_v2.asm  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/music_box(v2).o.d 
-	@${RM} ${OBJECTDIR}/music_box(v2).o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/music_box(v2).err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/music_box(v2).lst\\\" -e\\\"${OBJECTDIR}/music_box(v2).err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/music_box(v2).o\\\" \\\"music_box(v2).asm\\\" 
-	@${DEP_GEN} -d "${OBJECTDIR}/music_box(v2).o"
-	@${FIXDEPS} "${OBJECTDIR}/music_box(v2).o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
+	@${RM} ${OBJECTDIR}/music_box_v2.o.d 
+	@${RM} ${OBJECTDIR}/music_box_v2.o 
+	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/music_box_v2.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/music_box_v2.lst\\\" -e\\\"${OBJECTDIR}/music_box_v2.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/music_box_v2.o\\\" \\\"music_box_v2.asm\\\" 
+	@${DEP_GEN} -d "${OBJECTDIR}/music_box_v2.o"
+	@${FIXDEPS} "${OBJECTDIR}/music_box_v2.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 endif
 
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: link
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
+dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box_v2.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w -x -u_DEBUG -z__ICD2RAM=1 -m"${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"   -z__MPLAB_BUILD=1  -z__MPLAB_DEBUG=1 -z__MPLAB_DEBUGGER_PK3=1 $(MP_LINKER_DEBUG_OPTION) -odist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w -x -u_DEBUG -z__ICD2RAM=1 -m"${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"   -z__MPLAB_BUILD=1  -z__MPLAB_DEBUG=1 -z__MPLAB_DEBUGGER_PK3=1 $(MP_LINKER_DEBUG_OPTION) -odist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box_v2.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
 else
-dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
+dist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box_v2.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w  -m"${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"   -z__MPLAB_BUILD=1  -odist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w  -m"${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"   -z__MPLAB_BUILD=1  -odist/${CND_CONF}/${IMAGE_TYPE}/pic12f1572_music_box_v2.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
 endif
 
 

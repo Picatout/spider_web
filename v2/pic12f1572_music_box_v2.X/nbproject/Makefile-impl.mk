@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=pic12f1572_music_box.X
+PROJECTNAME=pic12f1572_music_box_v2.X
 
 # Active Configuration
 DEFAULTCONF=default

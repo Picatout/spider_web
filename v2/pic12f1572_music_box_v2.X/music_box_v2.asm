@@ -72,17 +72,17 @@ ENV_PIE EQU PIE3
 ENV_INTE EQU PWM3IE 
 ENV_RA EQU RA2
  
-; bicolor LEDs control 
-BILED EQU PWM2PH
-BILEDA_RA EQU RA5
-BILEDB_RA EQU RA4
-BILED_IF EQU PWM2IF 
-BILED_IE equ PWM2IF
-BILED_PIE EQU PIE3
-BILED_PIR EQU PIR3
+; CWG output pins, red/green LED control 
+GRNLED_RA EQU RA5
+REDLED_RA EQU RA4
 
 ; heart beat LED
+HBLED EQU PWM2PH
 HBEAT_LED EQU RA0
+HBLED_IF EQU PWM2IF 
+HBLED_IE equ PWM2IF
+HBLED_PIE EQU PIE3
+HBLED_PIR EQU PIR3
  
 ; tempered scale 2th octave
 C2 EQU 0
@@ -333,23 +333,23 @@ led_dc_inc res 1 ;
 
 	org 4
 isr
-led_ctrl_isr ;biled interrupt service
-	banksel BILED
-	btfss (BILED+PWMINTF),PRIF
+hbled_ctrl_isr ;heartbeat interrupt service
+	banksel HBLED
+	btfss (HBLED+PWMINTF),PRIF
 	goto env_isr
-	bcf (BILED+PWMINTF),PRIF
+	bcf (HBLED+PWMINTF),PRIF
 	btfss led_dc_inc,7
 	goto positive_slope
 negative_slope	
 	movlw 2
-	subwf (BILED+PWMDCL),W
+	subwf (HBLED+PWMDCL),W
 	skpnc
 	goto change_dc
 	goto invert_slope
 positive_slope
-	movfw (BILED+PWMPRL)
+	movfw (HBLED+PWMPRL)
 	addlw 254
-	subwf (BILED+PWMDCL),W
+	subwf (HBLED+PWMDCL),W
 	skpc
 	goto change_dc
 invert_slope ; two's complement
@@ -357,10 +357,10 @@ invert_slope ; two's complement
 	incf led_dc_inc,F
 change_dc
 	movfw led_dc_inc
-	addwf (BILED+PWMDCL),F
-	bsf (BILED+PWMLDCON),LDA
-	banksel BILED_PIR
-	bcf BILED_PIR,BILED_IF
+	addwf (HBLED+PWMDCL),F
+	bsf (HBLED+PWMLDCON),LDA
+	banksel HBLED_PIR
+	bcf HBLED_PIR,HBLED_IF
 env_isr	; envelope interrupt service
 	btfsc flags,F_DONE
 	goto isr_exit
@@ -462,49 +462,50 @@ play_list
 	goto fur_elise
 	goto reset_list
 
-; PWM3 and CWG are used to
-; control RED/GREEN LEDs
-; PWM -> 200Hz period
-; use interrupt on PRIF to 
-; modify DC
-; LED pulses in complementary	
-config_led_control
-	movlw 1
-	movwf led_dc_inc
+
+; configure CWG to control
+; 4 red, 4 green leds
+; 180 degres out of phase	
+cwg_config
 	; map CWGA -> RA5 and CWGB on RA2
 	banksel APFCON
 	movlw (1<<CWGASEL)|(1<<CWGBSEL)
 	movwf APFCON
-	; configure BILED
-	banksel BILED
-	clrf (BILED+PWMPHL)
-	clrf (BILED+PWMPHH)
-	clrf (BILED+PWMOFL)
-	clrf (BILED+PWMOFH)
-	bsf (BILED+PWMCLKCON),1 ; use LFINTOSC as source clock
-	movlw 120
-	movwf (BILED+PWMPRL)
-	clrf (BILED+PWMPRH)
-	movlw 77
-	movwf (BILED+PWMDCL)
-	clrf (BILED+PWMDCH)
-	bsf (BILED+PWMLDCON),LDA
-	; set interrupt on PR to modify DC
-	bcf (BILED+PWMINTF),PRIF
-	bsf (BILED+PWMINTE),PRIE
-	bsf (BILED+PWMCON),EN
-	bsf (BILED+PWMCON),OE
 	; configure CWG
 	banksel CWG1DBR
-	bsf CWG1CON1,0; source is BILED
-	bsf CWG1CON1,1
+	bsf CWG1CON1,2 ; source is ENV PWM
 	clrf CWG1DBR
 	clrf CWG1DBF
 	movlw (1<<G1EN)|(1<<G1OEA)|(1<<G1OEB)
 	movwf CWG1CON0
-	; enable interrupt in BILED_PIE
-	banksel BILED_PIE
-	bsf BILED_PIE,BILED_IE
+	return
+	
+; heart beat led control
+config_hbled_control
+	movlw 1
+	movwf led_dc_inc
+	; configure HBLED PWM
+	banksel HBLED
+	clrf (HBLED+PWMPHL)
+	clrf (HBLED+PWMPHH)
+	clrf (HBLED+PWMOFL)
+	clrf (HBLED+PWMOFH)
+	bsf (HBLED+PWMCLKCON),1 ; use LFINTOSC as source clock
+	movlw 120
+	movwf (HBLED+PWMPRL)
+	clrf (HBLED+PWMPRH)
+	movlw 60
+	movwf (HBLED+PWMDCL)
+	clrf (HBLED+PWMDCH)
+	bsf (HBLED+PWMLDCON),LDA
+	; set interrupt on PR to modify DC
+	bcf (HBLED+PWMINTF),PRIF
+	bsf (HBLED+PWMINTE),PRIE
+	bsf (HBLED+PWMCON),EN
+	bsf (HBLED+PWMCON),OE
+	; enable interrupt in HBLED_PIE
+	banksel HBLED_PIE
+	bsf HBLED_PIE,HBLED_IE
 	return
 	
 init
@@ -524,11 +525,10 @@ init
 	; output pins: RA0,RA1,R2,RA2,RA5
 	banksel TRISA
 	clrf TRISA
-	; power LED ON
-	banksel LATA
-	bcf LATA, RA1
-	; bicolor led show
-	call config_led_control
+	; red/green leds cwg configuration
+	call cwg_config
+	; heartbeat led config
+	call config_hbled_control
 	; clear TONE PH, DC, PR, OF
 	banksel TONE
 	movlw high TONE
@@ -602,10 +602,10 @@ div256
 	decf temp3,F
 	goto div256
 set_biled_per
-	banksel BILED
+	banksel HBLED
 	movfw tempL
-	movwf (BILED+PWMPRL)
-	bsf (BILED+PWMLDCON),LDA
+	movwf (HBLED+PWMPRL)
+	bsf (HBLED+PWMLDCON),LDA
 staff_loop
 	incf note_idx
 	movfw play
@@ -668,17 +668,17 @@ melody_done
 low_power
 	banksel INTCON
 	bcf INTCON, GIE
-	banksel BILED
-	bcf (BILED+PWMCON),EN
-	bcf (BILED+PWMCON),OE
-	bcf (BILED+PWMINTE),PRIF
-	bcf (BILED+PWMINTF),PRIF
+	banksel HBLED
+	bcf (HBLED+PWMCON),EN
+	bcf (HBLED+PWMCON),OE
+	bcf (HBLED+PWMINTE),PRIF
+	bcf (HBLED+PWMINTF),PRIF
 	banksel CWG1CON0
 	bcf CWG1CON0,G1OEA
 	bcf CWG1CON0,G1OEB
 	banksel LATA
-	bcf LATA,BILEDA_RA
-	bcf LATA,BILEDB_RA
+	bcf LATA,GRNLED_RA
+	bcf LATA,REDLED_RA
 	bsf LATA,HBEAT_LED
 	return
 
