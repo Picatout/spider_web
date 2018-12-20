@@ -23,10 +23,6 @@ I was not satified with version 1.
 1. The 2 bicolors LEDs will be replaced by 4 greens and 4 reds mounted alterning color on octogon rim angles. The CWG will be drived by envelope 
    signal. 
 
-The new octogon rim with mcu mounted placed over the base.
-
-![octogon rim and base](octogon_on_base.png)
-
 
 Project description
 -------------------
@@ -135,8 +131,10 @@ Making the Octogon
 1.  Using 1/4" section square dowel cut 8 such segments.
 1.  Each end of these segments must be cut at 22.5&deg; angle such that when all glued together the angle between segments will be 45&deg;
 
-![octogon_drawing](octogon_drawing.png)
-![octogon](octogon.png)
+The new octogon rim with mcu mounted placed over the base.
+
+![octogon rim and base](octogon_on_base.png)
+
 
 Assembly photos
 ---------------
@@ -144,12 +142,5 @@ Assembly photos
 ![spider_web(2)](spider_web(2).png)
 
 **components positioning**
-
-![C1-SW2](C1_SW2.png)
-![C2-C3-C4-U1](C2_C3_C4_U1.png)
-![C2-D4-D6-R4-R8-U1](C2_D4_D6_R4_R8_U1.png)
-![C4-R5-R7-Q1](C4_R5_R7_Q1.png)
-![D1-D5-R6](D1_D5_R6.png)
-![D2-D3-R1-R2-R3](D2_D3_R1_R2_R3.png)
 
 
