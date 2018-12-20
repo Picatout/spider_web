@@ -25,7 +25,7 @@ I was not satified with version 1.
 
 The new octogon rim with mcu mounted placed over the base.
 
-!["octogon rim and base"](octogon_with_mcu_installed (top).png)
+!["octogon rim and base"](octogon_with_mcu_installed_top.png)
 
 
 Project description
