@@ -38,7 +38,7 @@ New Schematic
 ![spider web music box v2](spider_web_music_box_v2.png)
 
 
- At the heart of the circuit a **PIC12F1572** microcontroller. This MCU has 3 independants 16 bits PWM (*Pulse widh modulation*) peripherals. One of them is used to generate audio tones. A second is used to control musical note duration. The third one as no relation to music. I given him a bit-play role as a LED show controller with the assistance of CWG (*Complementary Waveform Generator*) peripheral. So that every MCU pins are in use.
+ At the heart of the circuit a **PIC12F1572** microcontroller. This MCU has 3 independants 16 bits PWM (*Pulse widh modulation*) peripherals. One of them is used to generate audio tones. A second is used to control musical note duration. The third one is used to control an heart beat LED that will be mounted on the MCU. The CWG (*Complementary Waveform Generator*) peripheral is used to control 8 round robin LEDs mounted on the rim. So that all MCU pins are in use.
 
 **Tone generation** is easy with a PWM. The period is set to that of desired audio frequency with a 50% duty cycle. This audio tone is outputted on pin **6**.
 
