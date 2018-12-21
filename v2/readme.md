@@ -33,25 +33,24 @@ circumference. An octogonal wooden rim glued to the speaker will support the com
 Electronic circuit
 ------------------
 
+New Schematic
+
+![spider web music box v2](spider_web_music_box_v2.png)
 
 
- At the heart of the circuit a **PIC12F1572** microcontroller. This MCU has 3 independants 16 bits PWM (*Pulse widh modulation*) peripherals. One of them is used to generate audio tones.
-A second is used to control musical note duration. The third one as no relation to music. I given him a bit-play role as a LED show controller with the assistance
-of CWG (*Complementary Waveform Generator*) peripheral. So that every MCU pins are in use.
+ At the heart of the circuit a **PIC12F1572** microcontroller. This MCU has 3 independants 16 bits PWM (*Pulse widh modulation*) peripherals. One of them is used to generate audio tones. A second is used to control musical note duration. The third one as no relation to music. I given him a bit-play role as a LED show controller with the assistance of CWG (*Complementary Waveform Generator*) peripheral. So that every MCU pins are in use.
 
 **Tone generation** is easy with a PWM. The period is set to that of desired audio frequency with a 50% duty cycle. This audio tone is outputted on pin **6**.
 
-**Envelope** tone rise (*attach*) and fall time (*decay*) is controlled through transistor **Q1** which base is polarized by **C4** electrolytic capacitor voltage. The attach time is controlled by **R3**, **D3** and the decay time by **R2**, **D2**. A the beginning of each musical note pin **5** goes high by virtue of a PWM signal. This charge **C4** hence controlling the output volume to **speaker**.  This voltage is sustained for some fraction of note duration. After the sustain period pin **5** goes low and **C4** discharge through **R2**, **D2** thus gradualy dimishing speaker volume.
+**Envelope** tone rise (*attach*) and fall time (*decay*) is controlled through transistor **Q1** which base is polarized by **C4** electrolytic capacitor voltage. The attach time is controlled by **R2**, **D3** and the decay time by **R3**, **D4**. A the beginning of each musical note pin **5** goes high by virtue of a PWM signal. This charge **C4** hence controlling the output volume to **speaker**.  This voltage is sustained for some fraction of note duration. After the sustain period pin **5** goes low and **C4** discharge through **R3**, **D4** thus gradualy dimishing speaker volume.
 
 Light show
 ----------
 
 The audio circuit using only 2 pins there was 3 left and I decided to use them. pin **2** and **3** output a rectangular waveform 180&deg; out of phase coming from the
-**CWG** which is fed from the third PWM. The frequency of which is 200 Hertz with a continuously varying duty cycle in a triangular shape. The output of this PWM is
-on pin **7** and feed **D5** LED. The effect is varying LED intensity producing a heart beat effect.
+**CWG** which is fed from the envelope PWM. 4 greens and 4 reds LED are installed on the rim in alterning color. The outputs of **CWG** drive transistors **Q2** and **Q3**. These transistors drive 4 LEDs each. 1 serie of LED is ON while the other is OFF.  It produce a round robin of LEDs following the music.
 
-But the same signal on pins **2** and **3** has a complelely different effect on bicolors LEDs **D4** and **D6**. the effect is of a gradual color change from *red* to 
-*green* going through shades of *orange*. The two LEDs are wired so that their color phase is 180&deg; out.
+A red heart beat LED is mounted on the MCU itself. The speed of this heart beat follow music beat.
 
 using the music box
 -------------------
