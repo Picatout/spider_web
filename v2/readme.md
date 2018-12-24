@@ -42,7 +42,7 @@ New Schematic
 
 **Tone generation** is easy with a PWM. The period is set to that of desired audio frequency with a 50% duty cycle. This audio tone is outputted on pin **6**.
 
-**Envelope** tone rise (*attach*) and fall time (*decay*) is controlled through transistor **Q1** which base is polarized by **C4** electrolytic capacitor voltage. The attach time is controlled by **R2**, **D3** and the decay time by **R3**, **D4**. A the beginning of each musical note pin **5** goes high by virtue of a PWM signal. This charge **C4** hence controlling the output volume to **speaker**.  This voltage is sustained for some fraction of note duration. After the sustain period pin **5** goes low and **C4** discharge through **R3**, **D4** thus gradualy dimishing speaker volume.
+**Envelope**, tone rise (*attach*) and fall time (*decay*), is controlled through transistor **Q1** which base is polarized by **C4** electrolytic capacitor voltage. The attach time is controlled by **R2**, **D3** and the decay time by **R3**, **D4**. A the beginning of each musical note pin **5** goes high by virtue of a PWM signal. This charge **C4** hence controlling the output volume to **speaker**.  This voltage is sustained for some fraction of note duration. After the sustain period pin **5** goes low and **C4** discharge through **R3**, **D4** thus gradualy dimishing speaker volume.
 
 Light show
 ----------
@@ -138,6 +138,15 @@ The new octogon rim with mcu mounted placed over the base.
 Assembly photos
 ---------------
 
-**components positioning**
+![bottom view](bottom_view.png)
+
+![top view](top_view.png)
+
+video link
+----------
+
+https://youtu.be/yUX4WPuZ-vQ
+
+
 
 
