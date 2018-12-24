@@ -3,6 +3,8 @@ spider web version 2
 
 2018-12-23
 ----------
+I removed version from git, keeping only version 2.
+
 Project completed
 The sculpture run on 4xAAAA batteries. The battery pack in built-in the base.
 

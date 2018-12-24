@@ -13,6 +13,16 @@ Music from the web
 
 *For her was the question*
 
+version 2
+----------
+
+I was not satified with version 1. 
+
+1. With this version the speaker will placed on an octogonal base same size as the rim. Not decided yet if I will create a complete enclosure.
+1. The heartbeat led frequency will be set to tune tempo.
+1. The 2 bicolors LEDs will be replaced by 4 greens and 4 reds mounted alterning color on octogon rim angles. The CWG will be drived by envelope 
+   signal. 
+
 
 Project description
 -------------------
@@ -23,25 +33,24 @@ circumference. An octogonal wooden rim glued to the speaker will support the com
 Electronic circuit
 ------------------
 
-![schematic](schematic.png)
+New Schematic
 
- At the heart of the circuit a **PIC12F1572** microcontroller. This MCU has 3 independants 16 bits PWM (*Pulse widh modulation*) peripherals. One of them is used to generate audio tones.
-A second is used to control musical note duration. The third one as no relation to music. I given him a bit-play role as a LED show controller with the assistance
-of CWG (*Complementary Waveform Generator*) peripheral. So that every MCU pins are in use.
+![spider web music box v2](spider_web_music_box_v2.png)
+
+
+ At the heart of the circuit a **PIC12F1572** microcontroller. This MCU has 3 independants 16 bits PWM (*Pulse widh modulation*) peripherals. One of them is used to generate audio tones. A second is used to control musical note duration. The third one is used to control an heart beat LED that will be mounted on the MCU. The CWG (*Complementary Waveform Generator*) peripheral is used to control 8 round robin LEDs mounted on the rim. So that all MCU pins are in use.
 
 **Tone generation** is easy with a PWM. The period is set to that of desired audio frequency with a 50% duty cycle. This audio tone is outputted on pin **6**.
 
-**Envelope** tone rise (*attach*) and fall time (*decay*) is controlled through transistor **Q1** which base is polarized by **C4** electrolytic capacitor voltage. The attach time is controlled by **R3**, **D3** and the decay time by **R2**, **D2**. A the beginning of each musical note pin **5** goes high by virtue of a PWM signal. This charge **C4** hence controlling the output volume to **speaker**.  This voltage is sustained for some fraction of note duration. After the sustain period pin **5** goes low and **C4** discharge through **R2**, **D2** thus gradualy dimishing speaker volume.
+**Envelope**, tone rise (*attach*) and fall time (*decay*), is controlled through transistor **Q1** which base is polarized by **C4** electrolytic capacitor voltage. The attach time is controlled by **R2**, **D3** and the decay time by **R3**, **D4**. A the beginning of each musical note pin **5** goes high by virtue of a PWM signal. This charge **C4** hence controlling the output volume to **speaker**.  This voltage is sustained for some fraction of note duration. After the sustain period pin **5** goes low and **C4** discharge through **R3**, **D4** thus gradualy dimishing speaker volume.
 
 Light show
 ----------
 
 The audio circuit using only 2 pins there was 3 left and I decided to use them. pin **2** and **3** output a rectangular waveform 180&deg; out of phase coming from the
-**CWG** which is fed from the third PWM. The frequency of which is 200 Hertz with a continuously varying duty cycle in a triangular shape. The output of this PWM is
-on pin **7** and feed **D5** LED. The effect is varying LED intensity producing a heart beat effect.
+**CWG** which is fed from the envelope PWM. 4 greens and 4 reds LED are installed on the rim in alterning color. The outputs of **CWG** drive transistors **Q2** and **Q3**. These transistors drive 4 LEDs each. 1 serie of LED is ON while the other is OFF.  It produce a round robin of LEDs following the music.
 
-But the same signal on pins **2** and **3** has a complelely different effect on bicolors LEDs **D4** and **D6**. the effect is of a gradual color change from *red* to 
-*green* going through shades of *orange*. The two LEDs are wired so that their color phase is 180&deg; out.
+A red heart beat LED is mounted on the MCU itself. The speed of this heart beat follow music beat.
 
 using the music box
 -------------------
@@ -121,21 +130,23 @@ Making the Octogon
 1.  Using 1/4" section square dowel cut 8 such segments.
 1.  Each end of these segments must be cut at 22.5&deg; angle such that when all glued together the angle between segments will be 45&deg;
 
-![octogon_drawing](octogon_drawing.png)
-![octogon](octogon.png)
+The new octogon rim with mcu mounted placed over the base.
+
+![octogon rim and base](octogon_on_base.png)
+
 
 Assembly photos
 ---------------
-![spider_web(1)](spider_web(1).png)
-![spider_web(2)](spider_web(2).png)
 
-**components positioning**
+![bottom view](base_view.png)
 
-![C1-SW2](C1_SW2.png)
-![C2-C3-C4-U1](C2_C3_C4_U1.png)
-![C2-D4-D6-R4-R8-U1](C2_D4_D6_R4_R8_U1.png)
-![C4-R5-R7-Q1](C4_R5_R7_Q1.png)
-![D1-D5-R6](D1_D5_R6.png)
-![D2-D3-R1-R2-R3](D2_D3_R1_R2_R3.png)
+![top view](top_view.png)
+
+video link
+----------
+
+https://youtu.be/yUX4WPuZ-vQ
+
+
 
 
