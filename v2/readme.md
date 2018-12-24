@@ -138,7 +138,7 @@ The new octogon rim with mcu mounted placed over the base.
 Assembly photos
 ---------------
 
-![bottom view](bottom_view.png)
+![bottom view](base_view.png)
 
 ![top view](top_view.png)
 
